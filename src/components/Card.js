@@ -1,6 +1,8 @@
 import React from "react";
 import Name from "./Name";
 import Bio from "./Bio";
+import Species from "./Species";
+import Homeworld from "./Homeworld";
 
 class Card extends React.Component {
   state = {
@@ -85,17 +87,15 @@ class Card extends React.Component {
           info3="Skin Colour: "
           value3={this.state.character.skin_color}
         />
-        <Bio
-          loading={this.state.charLoading}
-          info1="Species: "
-          value1={this.state.species}
-          info2="Gender: "
-          value2={this.state.character.gender}
-          info3="Homeworld: "
-          value3={this.state.homeworld}
+        <Species
+          loading={this.state.speciesLoading}
+          species={this.state.species}
         />
-        {/* <Species />
-        <Homeworld /> */}
+        <Homeworld
+          loading={this.state.homeworldLoading}
+          homeworld={this.state.homeworld}
+        />
+
         {/* <Films /> */}
       </div>
     );

@@ -21,6 +21,10 @@ class App extends React.Component {
           <Card num={this.random()} />
           <Card num={this.random()} />
           <Card num={this.random()} />
+          <Card num={this.random()} />
+          <Card num={this.random()} />
+          <Card num={this.random()} />
+          <Card num={this.random()} />
         </div>
       </div>
     );
