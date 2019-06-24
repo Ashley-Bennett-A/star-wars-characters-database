@@ -1,33 +1,60 @@
-.App {
-  text-align: center;
-}
+@import url(http://allfont.net/allfont.css?fonts=star-jedi);
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.loading {
+  /* display: inline-block; */
+  width: 64px;
+  height: 64px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loading:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #cef;
+  border-color: #cef transparent #cef transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes lds-dual-ring {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.bio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.loaded {
+  margin: 10px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+body {
+  background-color: black;
+  color: #feda4a;
+  font-family: "Star Jedi", arial;
+}
+
+.card {
+  display: inline-block;
+  border: #feda4a solid 2px;
+  border-radius: 8px;
+  height: 400px;
+  width: 350px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
 }
