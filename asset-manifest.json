@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/star-wars-characters-database/static/css/main.09407893.chunk.css",
+    "main.js": "/star-wars-characters-database/static/js/main.46242584.chunk.js",
+    "main.js.map": "/star-wars-characters-database/static/js/main.46242584.chunk.js.map",
+    "runtime~main.js": "/star-wars-characters-database/static/js/runtime~main.f86f3579.js",
+    "runtime~main.js.map": "/star-wars-characters-database/static/js/runtime~main.f86f3579.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/star-wars-characters-database/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/star-wars-characters-database/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/star-wars-characters-database/index.html",
+    "precache-manifest.0eda0c3d4333f7c9064b0b999625b032.js": "/star-wars-characters-database/precache-manifest.0eda0c3d4333f7c9064b0b999625b032.js",
+    "service-worker.js": "/star-wars-characters-database/service-worker.js",
+    "static/css/main.09407893.chunk.css.map": "/star-wars-characters-database/static/css/main.09407893.chunk.css.map"
+  }
+}
